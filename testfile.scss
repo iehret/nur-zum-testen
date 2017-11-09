@@ -1,0 +1,22 @@
+/* stylelint-disable color-hex-length */
+/**
+ * Default preset file.
+ *
+ * Use this space to customise variables, create mixins and override SCSS.
+ */
+
+// Colors
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #00acdf !default;
+$brand-success:             #77b300 !default;
+$brand-warning:             #ff8800 !default;
+$brand-danger:              #ff4136 !default;
+$brand-inverse:             $gray-dark !default;
+$navbar-height:             50px !default;
+
+/
