@@ -55,7 +55,7 @@
    * Override for RTL layout
    */
 /*HSO modification begin - Class hsoclickers in hsoclicks geändert*/  
-  .path-mod-hsoclicker.dir-rtl .horizontal .hsoclicks .option {padding-right:0px; padding-left: 20px; float:right;}
+  .path-mod-hsoclicker.dir-rtl .horizontal .hsoclicks .option {padding-right:0; padding-left: 20px; float:right;}
 /*HSO modification end*/  
   .path-mod-hsoclicker.dir-rtl .results.anonymous .graph.horizontal {text-align: right;}
   .path-mod-hsoclicker.dir-rtl .results.anonymous { text-align: center; }
@@ -63,7 +63,7 @@
   .path-mod-hsoclicker.dir-rtl .results.names .user .attemptaction,
   .path-mod-hsoclicker.dir-rtl .results.names .user .image,
   .path-mod-hsoclicker.dir-rtl .results.names .user .fullname,
-  .path-mod-hsoclicker.dir-rtl .results.names .user .fullname{padding-left: 0px; padding-right: 5px;}
+  .path-mod-hsoclicker.dir-rtl .results.names .user .fullname{padding-left: 0; padding-right: 5px;}
   .path-mod-hsoclicker.dir-rtl .downloadreport {margin-left:0;margin-right: 25%;}
   
   #page-mod-hsoclicker-report.dir-rtl .downloadreport ul li{float:right;}
@@ -81,4 +81,5 @@ HSO-Klicker neues css
 /*Kommentar erweitern: Feld um zusätzliche Felder für Optionen zu generieren herausnehmen damit es nicht mehr angezeigt wird*/
 .path-mod-hsoclicker #id_option_add_fields{
 	display:none;
+    padding-top: inherit;
 }
