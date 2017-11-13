@@ -78,7 +78,7 @@ HSO-Klicker neues css
 	padding: 5px;
 }
 
-/*Feld um zusätzliche Felder für Optionen zu generieren herausnehmen damit es nicht mehr angezeigt wird*/
+/*Kommentar erweitern: Feld um zusätzliche Felder für Optionen zu generieren herausnehmen damit es nicht mehr angezeigt wird*/
 .path-mod-hsoclicker #id_option_add_fields{
 	display:none;
 }
