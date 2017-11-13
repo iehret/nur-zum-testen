@@ -1,0 +1,84 @@
+  .path-mod-hsoclicker .results {border-collapse: separate;}
+  .path-mod-hsoclicker .results .data {vertical-align:top;white-space: nowrap;}
+  .path-mod-hsoclicker .button {text-align:center;}
+  .path-mod-hsoclicker .attemptcell {width:5px;white-space: nowrap;}
+  .path-mod-hsoclicker .anonymous,
+  .path-mod-hsoclicker .names {margin-left:auto;margin-right:auto; width:80%;}
+  .path-mod-hsoclicker .downloadreport {border-width:0;margin-left:10%;}
+  .path-mod-hsoclicker .hsoclickerresponse {width:100%;}
+  .path-mod-hsoclicker .hsoclickerresponse .picture {width:10px;white-space: nowrap;}
+  .path-mod-hsoclicker .hsoclickerresponse .fullname {width:100%;white-space: nowrap;}
+  
+  .path-mod-hsoclicker .responseheader {width: 100%; text-align: center; margin-top: 10px;}
+/*HSO modification begin - hsoclickers in hsoclicks geändert, 1. Zeile: vertical-align:middle und margin: 0 0 0 5px  eingefügt*/  
+  .path-mod-hsoclicker .hsoclicks .option label {vertical-align: middle; margin: 0 0 0 5px;}  
+  .path-mod-hsoclicker .hsoclicks .option input {vertical-align: middle;margin-top:0;}
+/*HSO modification end*/  
+  .path-mod-hsoclicker .horizontal,
+  .path-mod-hsoclicker .vertical {margin-left: 10%;margin-right: 10%;}
+/*HSO modification - in den folgenden Zeilen hsoclickers in hsoclicks geändert und padding-right auf 30ps setzen statt 20px und padding-bottom:20px; einfügen*/
+  .path-mod-hsoclicker .horizontal .hsoclicks .option {padding-right: 30px; padding-bottom:20px; display: inline-block; white-space: normal;}
+  .path-mod-hsoclicker .horizontal .hsoclicks .button {margin-top: 10px;}
+  .path-mod-hsoclicker ul.hsoclicks li {list-style:none;}
+/*HSO modification end*/  
+  .path-mod-hsoclicker .results { text-align: center;}
+  .path-mod-hsoclicker .results.anonymous .graph.horizontal {vertical-align: middle;text-align: left;width:70%;}
+  
+  .path-mod-hsoclicker .results.anonymous .graph.vertical,
+  .path-mod-hsoclicker .cell {vertical-align: bottom; text-align: center; }
+  .path-mod-hsoclicker .results.anonymous th.header {border: 1px solid inherit;}
+  
+  .path-mod-hsoclicker .results.names .header{width:10%; white-space: normal;}
+  .path-mod-hsoclicker .results.names .cell{vertical-align: top; text-align: left;}
+  .path-mod-hsoclicker .results.names .user,
+  .path-mod-hsoclicker #yourselection {padding: 5px;}
+  .path-mod-hsoclicker .results.names .user .attemptaction,
+  .path-mod-hsoclicker .results.names .user .image,
+  .path-mod-hsoclicker .results.names .user .fullname{float:left;}
+  .path-mod-hsoclicker .results.names .user .fullname{padding-left: 5px;}
+  .path-mod-hsoclicker .results .data.header {width: 10%; 
+/*HSO modification begin - damit Überschrift über Ergebnisse auch zentriert ist*/ 
+  text-align:center;
+/*HSO modification end */ 
+  }
+  .path-mod-hsoclicker .responseaction {text-align: center;}
+  .path-mod-hsoclicker .results .option {white-space: normal;}
+  .path-mod-hsoclicker .response {overflow: auto;}
+  .path-mod-hsoclicker .results .option,
+  .path-mod-hsoclicker .results .numberofuser,
+  .path-mod-hsoclicker .results .percentage {font-weight: bold; font-size: 108%;}
+  
+  #page-mod-hsoclicker-report .downloadreport ul li {list-style:none;padding: 0 20px; display: inline;float: left; }
+  .path-mod-hsoclicker .clearfloat {float:none; clear:both;}
+  
+  /**
+   * Override for RTL layout
+   */
+/*HSO modification begin - Class hsoclickers in hsoclicks geändert*/  
+  .path-mod-hsoclicker.dir-rtl .horizontal .hsoclicks .option {padding-right:0px; padding-left: 20px; float:right;}
+/*HSO modification end*/  
+  .path-mod-hsoclicker.dir-rtl .results.anonymous .graph.horizontal {text-align: right;}
+  .path-mod-hsoclicker.dir-rtl .results.anonymous { text-align: center; }
+  .path-mod-hsoclicker.dir-rtl .results.names .cell{text-align: right;}
+  .path-mod-hsoclicker.dir-rtl .results.names .user .attemptaction,
+  .path-mod-hsoclicker.dir-rtl .results.names .user .image,
+  .path-mod-hsoclicker.dir-rtl .results.names .user .fullname,
+  .path-mod-hsoclicker.dir-rtl .results.names .user .fullname{padding-left: 0px; padding-right: 5px;}
+  .path-mod-hsoclicker.dir-rtl .downloadreport {margin-left:0;margin-right: 25%;}
+  
+  #page-mod-hsoclicker-report.dir-rtl .downloadreport ul li{float:right;}
+  #page-mod-hsoclicker-view.dir-rtl .reportlink {text-align: left;}
+
+
+
+/** -----------------
+HSO-Klicker neues css
+---------------------**/
+.path-mod-hsoclicker .hsoclickerbutton{
+	padding: 5px;
+}
+
+/*Feld um zusätzliche Felder für Optionen zu generieren herausnehmen damit es nicht mehr angezeigt wird*/
+.path-mod-hsoclicker #id_option_add_fields{
+	display:none;
+}
