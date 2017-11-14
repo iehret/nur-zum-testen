@@ -1,3 +1,3 @@
 # nur-zum-testen
-Zum Ausprobieren, wie das funktioniert.
-Das ist nur ein Zweig um zu testen, wie man das macht. Dazu ist das auf jeden Fall da. Es hat keine andere Funktion.
+Only to test.
+This is a branch to test how to work with this software and github.
